@@ -1,6 +1,6 @@
 ---
 name: Source Log
-description: Use to record information about a data sources, its workflow(s) and graph(s), and its current status.
+about: Use to record information about a data sources, its workflow(s) and graph(s), and its current status.
 
 body:
   - type: input
