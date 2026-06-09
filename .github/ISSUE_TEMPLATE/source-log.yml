@@ -15,12 +15,20 @@ body:
       label: Structured data score (optional)
       description: "Enter the structured data score as a percentage value."
       placeholder: "72"
-  - type: input
-    id: workflow
+  - type: markdown
+    id: graph-workflow-heading
     attributes:
-      label: Graph(s) and GitHub workflow(s)
-      description: "Provide a link to the data source's graph(s) and GitHub workflow(s). Leave this field empty if no workflow has been created yet."
-      placeholder: "https://github.com/artsdata-stewards/artsdata-orion/blob/main/.github/workflows/example-com.yml"
+      value: |
+        "###Graph(s) and GitHub workflow(s)"
+  - type: markdown
+    id: graph-workflow
+    attributes:
+      value: |
+        Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet."
+        | Graph | GitHub Workflow |
+        | ----------------- | ----------------- |
+        |  |  |
+        |  |  |
   - type: dropdown
     id: status
     attributes:
