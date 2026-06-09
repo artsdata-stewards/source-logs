@@ -1,0 +1,55 @@
+---
+name: Source Log
+description: Use to record information about a data sources, its workflow(s) and graph(s), and its current status.
+
+body:
+  - type: input
+    id: event-webpage
+    attributes:
+      label: Event webpage URL
+      description: "Enter the URL of the webpage where events are listed"
+      placeholder: "https://example.com/whats-on/"
+  - type: input
+    id: structured-data-score
+    attributes:
+      label: Structured data score
+      description: "Enter the structured data score as a percentage value."
+      placeholder: "72"
+  - type: input
+    id: workflow
+    attributes:
+      label: GitHub workflow
+      description: "Provide a link to the GitHub workflow. Leave this field empty if no workflow has been created yet."
+      placeholder: "https://github.com/artsdata-stewards/artsdata-orion/blob/main/.github/workflows/example-com.yml"
+  - type: input
+    id: already-loaded-graphs
+    attributes:
+      label: Other graphs already loaded to Artsdata
+      description: "If a graph for the organization has already been loaded to Artsdata (via Footlight, Spektrix, or any other group), add the URL here. Otherwise, leave this field empty."
+      placeholder: "http://kg.artsdata.ca/culture-creates/footlight/example-com"
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options: 
+        - Need help with entity identifier
+        - Awaiting data quality check
+        - Waiting for the provider to make changes to their data
+        - Need auto-minting from Culture Creates
+        - Need graph rankings
+        - Not sure
+  - type: checkboxes
+    id: autominting
+    attributes:
+      label: Autominting
+      description: "Check this box if the source should be autominted."
+      options: 
+        - label: Ready for autominting
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: "Provide any other relevant information. For example, if this website is meant to replace an older source, provide the name of the graph that should be deleted."
+---
+
+
