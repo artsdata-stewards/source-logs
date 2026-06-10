@@ -12,18 +12,15 @@ body:
   - type: input
     id: structured-data-score
     attributes:
-      label: Structured data score (optional)
-      description: "Enter the structured data score as a percentage value."
+      label: Structured data score
+      description: "Enter the structured data score as a percentage value (optional)."
       placeholder: "72"
-  - type: markdown
-    id: graph-workflow-heading
-    attributes:
-      value: "##Graph(s) and GitHub workflow(s)"
-  - type: markdown
+  - type: textarea
     id: graph-workflow
     attributes:
+      label: Graph(s) and GitHub workflow(s)
+      description: "Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet."
       value: |
-        Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet."
         | Graph | GitHub Workflow |
         | ----------------- | ----------------- |
         |  |  |
