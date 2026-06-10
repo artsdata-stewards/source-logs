@@ -18,8 +18,7 @@ body:
   - type: markdown
     id: graph-workflow-heading
     attributes:
-      value: |
-        "###Graph(s) and GitHub workflow(s)"
+      value: "##Graph(s) and GitHub workflow(s)"
   - type: markdown
     id: graph-workflow
     attributes:
@@ -40,13 +39,6 @@ body:
         - Need auto-minting from Culture Creates
         - Need graph rankings
         - Not sure
-  - type: checkboxes
-    id: autominting
-    attributes:
-      label: Autominting
-      description: "Check this box if the source should be autominted."
-      options: 
-        - label: Ready for autominting
   - type: textarea
     id: notes
     attributes:
