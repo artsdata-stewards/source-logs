@@ -6,19 +6,19 @@ body:
   - type: input
     id: webpage
     attributes:
-      label: Web page URL
+      label: Web Page URL
       description: "Enter the URL of the web page where the source data is available"
       placeholder: "https://example.com/whats-on/"
   - type: input
     id: structured-data-score
     attributes:
-      label: Structured data score
+      label: Structured Data Score
       description: "Enter the structured data score as a percentage value (optional)."
       placeholder: "72"
   - type: textarea
     id: graph-workflow
     attributes:
-      label: Graph(s) and GitHub workflow(s)
+      label: Graph(s) and GitHub Workflow(s)
       description: "Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet."
       value: |
         | Graph | GitHub Workflow |
