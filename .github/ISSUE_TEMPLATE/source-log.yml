@@ -39,7 +39,7 @@ body:
     id: tasks
     attributes:
       label: Tasks
-      description: ""
+      description: "Here is a list of sample tasks associated with loading a new sources. Edit this list as you see fit."
       value: |
         - [ ] ...
         - [ ] Set up GitHub workflow
