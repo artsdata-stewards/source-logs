@@ -1,6 +1,6 @@
 ---
 name: Source Log
-description: Use to record information about a data sources, its workflow(s) and graph(s), and its current status.
+description: This issue template is intended to record information about a data source, its graph(s), workflow(s), its current status, and any pending tasks..
 
 body:
   - type: input
@@ -9,12 +9,6 @@ body:
       label: Web Page URL
       description: "Enter the URL of the web page where the source data is available"
       placeholder: "https://example.com/whats-on/"
-  - type: input
-    id: structured-data-score
-    attributes:
-      label: Structured Data Score
-      description: "Enter the structured data score as a percentage value (optional)."
-      placeholder: "72"
   - type: textarea
     id: graph-workflow
     attributes:
@@ -26,10 +20,10 @@ body:
       https://github.com/culturecreates/artsdata-planet-footlight |   
       https://github.com/artsdata-stewards/artsdata-orion"
       value: |
-        | Graph | GitHub Workflow |
+        | Graph | Workflow |
         | ----------------- | ----------------- |
-        |  |  |
-        |  |  |
+        | EnterFullURI | Link |
+        | EnterFullURI | Link |
   - type: dropdown
     id: status
     attributes:
