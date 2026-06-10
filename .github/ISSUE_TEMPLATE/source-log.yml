@@ -20,10 +20,10 @@ body:
     attributes:
       label: Graph(s) and GitHub Workflow(s)
       description: "Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet./
-      Here are quick links to help you retrieve commonly used GitHub repositories. /
-      https://github.com/culturecreates/artsdata-orion  
-      https://github.com/culturecreates/artsdata-planet-spektrix  
-      https://github.com/culturecreates/artsdata-planet-footlight  
+      Here are quick links to help you retrieve commonly used GitHub repositories:
+      https://github.com/culturecreates/artsdata-orion |  
+      https://github.com/culturecreates/artsdata-planet-spektrix | 
+      https://github.com/culturecreates/artsdata-planet-footlight |   
       https://github.com/artsdata-stewards/artsdata-orion"
       value: |
         | Graph | GitHub Workflow |
