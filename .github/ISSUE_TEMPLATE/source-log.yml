@@ -13,17 +13,17 @@ body:
     id: graph-workflow
     attributes:
       label: Graph(s) and GitHub Workflow(s)
-      description: "Provide links to the data source's graph(s) and GitHub workflow(s). Leave this table empty if no workflow has been created yet. 
+      description: "Provide links to the data source's graph(s) and GitHub workflow(s), along with each graph's auto-minting status. Leave this table empty if no workflow has been created yet. 
       Here are quick links to help you retrieve commonly used GitHub repositories:
       https://github.com/culturecreates/artsdata-orion |  
       https://github.com/culturecreates/artsdata-planet-spektrix | 
       https://github.com/culturecreates/artsdata-planet-footlight |   
       https://github.com/artsdata-stewards/artsdata-orion"
       value: |
-        | Graph | Workflow |
-        | ----------------- | ----------------- |
-        | EnterFullURI | Link |
-        | EnterFullURI | Link |
+        | Graph | Workflow | Automint |
+        | ----------- | ----------- | ----------- |
+        | EnterFullURI | Link | TRUE |
+        | EnterFullURI | Link | FALSE |
   - type: dropdown
     id: status
     attributes:
@@ -35,6 +35,18 @@ body:
         - Need auto-minting from Culture Creates
         - Need graph rankings
         - Not sure
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: ""
+      value: |
+        - [ ] ...
+        - [ ] Set up GitHub workflow
+        - [ ] Turn auto-minting on
+        - [ ] Assign ranking
+        - [ ] Notify the data provider
+        - [ ] ...
   - type: textarea
     id: notes
     attributes:
