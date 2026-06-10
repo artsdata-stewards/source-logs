@@ -1,6 +1,6 @@
 ---
 name: Source Log
-description: This issue template is intended to record information about a data source, its graph(s), workflow(s), its current status, and any pending tasks..
+description: This issue template is intended to record information about a data source, its graph(s), workflow(s), its current status, and any pending tasks.
 
 body:
   - type: input
