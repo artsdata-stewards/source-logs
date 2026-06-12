@@ -4,10 +4,15 @@ description: This issue template is intended to record information about a data 
 
 body:
   - type: input
+    id: name
+    attributes:
+      label: Maintainer Name
+      description: "Enter the name of the organization responsible for maintaining this data source."
+  - type: input
     id: webpage
     attributes:
       label: Web Page URL
-      description: "Enter the URL of the web page where the source data is available"
+      description: "Enter the URL of a web page where the data source is available."
       placeholder: "https://example.com/whats-on/"
   - type: textarea
     id: graph-workflow
