@@ -46,12 +46,12 @@ body:
       label: Tasks
       description: "Here is a list of sample tasks associated with loading a new sources. Edit this list as you see fit."
       value: |
-        - [ ] ...
         - [ ] Set up GitHub workflow
+        - [ ] Run manual minting tests
+        - [ ] Reconcile Place entities
         - [ ] Turn auto-minting on
         - [ ] Assign ranking
         - [ ] Notify the data provider
-        - [ ] ...
   - type: textarea
     id: notes
     attributes:
